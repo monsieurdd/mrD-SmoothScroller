@@ -1,21 +1,20 @@
 # mrD-SmoothScroller
 
-SmoothScroll.js is a lightweight JavaScript library that enhances the user experience by providing smooth scrolling for web pages. It intercepts native scroll events and animates the scrolling with customizable easing functions, duration, sensitivity, and deceleration factors.
+SmoothScroll.js is a lightweight and highly customizable JavaScript library designed to enhance the user experience by providing smooth scrolling capabilities for web pages. By intercepting native scroll events, this library animates the scrolling process, offering a more pleasant and visually appealing navigation experience. SmoothScroll.js is perfect for developers looking to implement smooth, animated scrolling for mouse wheel, trackpad, and keyboard navigation.
 
-## Features:
+## Key Features:
 
-1. **Smooth Scrolling**: Provides smooth, animated scrolling for mouse wheel, trackpad, and keyboard navigation.
-2. **Customizable Options**: Allows users to set custom scroll duration, sensitivity, and deceleration factors.
-3. **Ease-In-Out Effects**: Supports smooth ease-in-out effects for a natural scrolling experience.
-4. **Anchor Link Scrolling**: Smoothly scrolls to sections of the page when navigation links are clicked.
-5. **Easy Integration**: Simple setup with minimal configuration required, leveraging `data-*` attributes for customization.
-6. **Polyfill Included**: Includes polyfills for `requestAnimationFrame` and `cancelAnimationFrame` to ensure compatibility across browsers.
+1. **Smooth Scrolling**: Ensures smooth, animated scrolling for all types of input, including mouse wheel, trackpad, and keyboard, enhancing the overall user experience.
+2. **Customizable Options**: Offers extensive customization, allowing developers to set custom scroll durations, sensitivity levels, and deceleration factors to tailor the scrolling behavior to their specific needs.
+3. **Ease-In-Out Effects**: Supports smooth ease-in-out effects, providing a natural and intuitive scrolling experience that mimics real-world physics.
+4. **Anchor Link Scrolling**: Automatically handles smooth scrolling to page sections when navigation links are clicked, ensuring seamless transitions between different parts of the webpage.
+5. **Easy Integration**: Simple to set up with minimal configuration required. Developers can leverage `data-*` attributes to customize scrolling options directly within their HTML.
+6. **Polyfill Included**: Includes polyfills for `requestAnimationFrame` and `cancelAnimationFrame`, ensuring compatibility with a wide range of browsers and providing a consistent experience across all platforms.
 
-## Usage:
+## Installation and Usage:
 
-1. **Include the Library**: Add the `smoothScroll.js` script to your HTML file.
-2. **Add the Class and Custom Options**: Add the `mrd-smooth` class to the `<body>` element and specify any custom options using `data-*` attributes.
+To get started with SmoothScroll.js, follow these steps:
 
-## Example:
-
-See `mrd-smoothscroller.html`
+1. **Include the Library**: Download the `smoothScroll.js` file and include it in your HTML file:
+   ```html
+   <script src="path/to/smoothScroll.js"></script>
