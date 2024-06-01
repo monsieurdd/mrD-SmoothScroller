@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mr.D - Smooth Scroller Example</title>
+  <meta name="description" content="SmoothScroller.js - A lightweight JavaScript library for smooth scrolling with customizable options.">
+  <meta name="author" content="mr.D - Carl Durocher - www.carldurocher.com">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2em;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body class="mrd-smooth" data-scroll-duration="1000" data-scroll-deceleration="0.95" data-scroll-sensitivity="0.07">
+  <nav>
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+  </nav>
+  <section id="section1">Section 1</section>
+  <section id="section2">Section 2</section>
+  <section id="section3">Section 3</section>
+
+  <script src="mrd-smoothscroller.js"></script>
+</body>
+</html>
