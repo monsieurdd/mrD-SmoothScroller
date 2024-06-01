@@ -15,6 +15,6 @@ SmoothScroll.js is a lightweight and highly customizable JavaScript library desi
 
 To get started with SmoothScroll.js, follow these steps:
 
-1. **Include the Library**: Download the `smoothScroll.js` file and include it in your HTML file:
+1. **Include the Library**: Download the `mrd-smoothscroller.js` file and include it in your HTML file:
    ```html
-   <script src="path/to/smoothScroll.js"></script>
+   <script src="path/to/mrd-smoothscroller.js"></script>
