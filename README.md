@@ -1,6 +1,6 @@
 # mrD-SmoothScroller
 
-SmoothScroll.js is a lightweight and highly customizable JavaScript library designed to enhance the user experience by providing smooth scrolling capabilities for web pages. By intercepting native scroll events, this library animates the scrolling process, offering a more pleasant and visually appealing navigation experience. SmoothScroll.js is perfect for developers looking to implement smooth, animated scrolling for mouse wheel, trackpad, and keyboard navigation.
+mrd-smoothscroller.js is a lightweight and highly customizable JavaScript library designed to enhance the user experience by providing smooth scrolling capabilities for web pages. By intercepting native scroll events, this library animates the scrolling process, offering a more pleasant and visually appealing navigation experience. SmoothScroll.js is perfect for developers looking to implement smooth, animated scrolling for mouse wheel, trackpad, and keyboard navigation.
 
 ## Key Features:
 
