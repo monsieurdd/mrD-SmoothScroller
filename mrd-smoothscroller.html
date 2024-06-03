@@ -7,19 +7,23 @@
   <meta name="description" content="SmoothScroller.js - A lightweight JavaScript library for smooth scrolling with customizable options.">
   <meta name="author" content="mr.D - Carl Durocher - www.carldurocher.com">
   <style>
-    body {
+    body,html {
       font-family: Arial, sans-serif;
+      padding: 0;
+      margin:0;
     }
     section {
       height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 2em;
+      font-size: 4em;
+      text-transform: uppercase;
     }
     nav {
       position: fixed;
       top: 0;
+      left:0;
       width: 100%;
       background: #333;
       color: white;
@@ -43,10 +47,14 @@
     <a href="#section1">Section 1</a>
     <a href="#section2">Section 2</a>
     <a href="#section3">Section 3</a>
+    <a href="#section4">Section 4</a>
+    <a href="#section5">Section 5</a>
   </nav>
-  <section id="section1">Section 1</section>
+  <section id="section1" style="background-color:black; color: white;">Section 1</section>
   <section id="section2">Section 2</section>
-  <section id="section3">Section 3</section>
+  <section id="section3" style="background-color:black; color: white;">Section 3</section>
+  <section id="section4">Section 4</section>
+  <section id="section5" style="background-color:black; color: white;">Section 5</section>
 
   <script src="mrd-smoothscroller.js"></script>
 </body>
