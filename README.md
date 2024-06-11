@@ -24,7 +24,7 @@ To get started with SmoothScroll.js, follow these steps:
    
 
    
-2. **Include the body class and custom attributes if you need to change the smoothness **:
+2. **Include custom attributes if you need to change the smoothness **:
    ```html
    <body data-scroll-duration="1000"
       data-scroll-deceleration="0.96"
