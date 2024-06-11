@@ -18,6 +18,12 @@ To get started with SmoothScroll.js, follow these steps:
 1. **Include the Library**: Download the `mrd-smoothscroller.js` file and include it in your HTML file:
    ```html
    <script src="path/to/mrd-smoothscroller.js"></script>
+
+   OR use the free CDN:
+   <script src="https://cdn.jsdelivr.net/gh/monsieurdd/mrD-SmoothScroller@main/mrd-smoothscroller.js"></script>
+   
+
+   
 2. **Include the body class and custom attributes if you need to change the smoothness **:
    ```html
    <body data-scroll-duration="1000"
