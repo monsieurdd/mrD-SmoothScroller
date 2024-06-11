@@ -20,7 +20,7 @@ To get started with SmoothScroll.js, follow these steps:
    <script src="path/to/mrd-smoothscroller.js"></script>
 
    OR use the free CDN:
-   <script src="https://cdn.jsdelivr.net/gh/monsieurdd/mrD-SmoothScroller@main/mrd-smoothscroller.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/monsieurdd/mrD-SmoothScroller@latest/mrd-smoothscroller.js"></script>
    
 
    
